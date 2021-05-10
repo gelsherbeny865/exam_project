@@ -1,0 +1,236 @@
+.navbar{
+    background-color: white !important;
+    height: 100px;
+    margin: 5px;
+    padding: 20px;
+}
+.headpad{
+   margin-right: 20px;
+   font-size: larger;
+   font-weight: 700;
+   color: black !important;
+}
+
+.headpad:hover {
+  color: #A8B1FF !important
+  }
+  
+.hero {
+    position: relative;
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .hero {
+        padding: 45px 60px;
+    }
+  }
+  
+  .hero h2 {
+    margin: 0;
+    font-size: 45px;
+    font-weight: 800;
+  }
+  
+  .hero h2 span {
+    color: #4F84C4;
+  }
+  
+  .hero p {
+    margin: 10px 0 20px 0;
+    font-size: 18px;
+    font-weight: 500px;
+    
+  }
+  
+  .hero a.btn {
+    position: relative;
+    padding: 10px 35px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    background-color: #A8B1FF !important;
+    transition: .5s;
+  }
+  
+  .hero a.btn:hover {
+    background: linear-gradient(#A8B1FF, #818cee);
+  }
+  
+  .hero img {
+    max-width: 100%;
+    max-height: 600px;
+  }
+  
+  @media (max-width: 767.98px) {
+    .hero img {
+        margin-top: 30px;
+    }
+  }
+  .sup:hover{
+  background: linear-gradient(#A8B1FF, #818cee);}
+  .line {
+    position: relative;
+    text-align: center;
+  }
+  .line:after {
+    content: "";
+    border-bottom: 4px solid #A8B1FF;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  .line span {
+    padding: 0 8px;
+    background-color: white;
+    position: relative;
+  }
+  .etsarf{
+width: 70%;
+height: 50%;
+  }
+  .tani{
+      text-align: center;
+  }
+  .faaaa {
+    padding:11px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white !important;
+    background-color: black;
+  }
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  .logbtn:hover{
+    background: linear-gradient(#A8B1FF, #818cee);
+  }
+  .row.heading h2 {
+    color: #fff;
+    font-size: 52.52px;
+    line-height: 95px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 40px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.heading.heading-icon {
+    display: block;
+}
+.padding-lg {
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.practice-area.padding-lg {
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+.practice-area .inner{ 
+     border:1px solid #999999; 
+	 text-align:center; 
+	 margin-bottom:28px; 
+	 padding:40px 25px;
+}
+.our-webcoderskull .cnt-block:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    border: 0;
+}
+.practice-area .inner h3{ 
+    color:#3c3c3c; 
+	font-size:24px; 
+	font-weight:500;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 0;
+}
+.practice-area .inner p{ 
+    font-size:14px; 
+	line-height:22px; 
+	font-weight:400;
+}
+.practice-area .inner img{
+	display:inline-block;
+}
+
+
+.our-webcoderskull{
+  background-color: #D2D7FF;
+}
+.our-webcoderskull .cnt-block{ 
+   float:left; 
+   width:100%; 
+   background:#fff; 
+   padding:30px 20px; 
+   text-align:center; 
+   border:2px solid #d5d5d5;
+   margin: 0 0 28px;
+}
+.our-webcoderskull .cnt-block figure{
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+   display:inline-block;
+   margin-bottom: 15px;
+}
+.our-webcoderskull .cnt-block img{ 
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+}
+.our-webcoderskull .cnt-block h3{ 
+   color:#2a2a2a; 
+   font-size:20px; 
+   font-weight:500; 
+   padding:6px 0;
+   text-transform:uppercase;
+}
+.our-webcoderskull .cnt-block h3 a{
+  text-decoration:none;
+	color:#2a2a2a;
+}
+.our-webcoderskull .cnt-block h3 a:hover{
+	color:#337ab7;
+}
+.our-webcoderskull .cnt-block p{ 
+   color:#2a2a2a; 
+   font-size:13px; 
+   line-height:20px; 
+   font-weight:400;
+}
+.our-webcoderskull .cnt-block .follow-us{
+	margin:20px 0 0;
+}
+.our-webcoderskull .cnt-block .follow-us li{ 
+    display:inline-block; 
+	width:auto; 
+	margin:0 5px;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa{ 
+   font-size:24px; 
+   color:#767676;
+}
+.our-webcoderskull .cnt-block .follow-us li .fa:hover{ 
+   color:#025a8e;
+}
+
+.nsf{
+  margin-bottom: 20px;
+}
