@@ -6,13 +6,13 @@ use Dcblogdev\PdoWrapper\Database ;
  static function db(){
     $options = [
         //required
-        'username' => 'root',
-        'database' => 'test2',
+        'username' => USERNAME,
+        'database' => DATABASE,
         //optional
-        'password' => '',
-        'type' => 'mysql',
+        'password' => PASSWORD,
+        'type' => DATABASE_TYPE,
         'charset' => 'utf8',
-        'host' => 'localhost',
+        'host' => SERVER,
         'port' => '3306'
     ];
     
